@@ -1,0 +1,12 @@
+/_build/
+/deps/
+/cover/
+erl_crash.dump
+*.ez
+
+# Written by the test run, published by CI, never committed: the per-test report Constat reads
+# and the pictures the checks take while they pass.
+/.constat/check-report/
+/.constat/check-report-base/
+/.constat/pictures/
+/.constat/report.json
