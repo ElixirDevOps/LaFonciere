@@ -1,0 +1,17 @@
+/_build/
+/deps/
+/cover/
+erl_crash.dump
+*.ez
+
+# Written by the test run and published by CI, never committed: the per-test report Constat
+# reads, and this attempt's own report.
+/.constat/check-report/
+/.constat/check-report-base/
+/.constat/check-report-mutant/
+/.constat/check-coverage/
+/.constat/check-mutation/
+/.constat/report.json
+
+# .constat/pictures/ is deliberately NOT ignored: the checks that take a picture rewrite it on
+# every run, and the committed copy is the one a reader — and Constat — can actually reach.
