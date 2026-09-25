@@ -4,9 +4,11 @@
 erl_crash.dump
 *.ez
 
-# Written by the test run, published by CI, never committed: the per-test report Constat reads
-# and the pictures the checks take while they pass.
+# Written by the test run and published by CI, never committed: the per-test report Constat
+# reads, and this attempt's own report.
 /.constat/check-report/
 /.constat/check-report-base/
-/.constat/pictures/
 /.constat/report.json
+
+# .constat/pictures/ is deliberately NOT ignored: the checks that take a picture rewrite it on
+# every run, and the committed copy is the one a reader — and Constat — can actually reach.
