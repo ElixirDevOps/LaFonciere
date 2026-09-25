@@ -4,4 +4,4 @@ WORKDIR /app
 COPY . .
 RUN mix compile
 
-CMD ["mix", "run", "--no-halt"]
+CMD ["mix", "serve"]
