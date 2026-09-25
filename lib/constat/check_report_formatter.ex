@@ -1,4 +1,4 @@
-# constat:template id=exunit-formatter version=24 sha256=dfd535b703ec7a7569f779e81d7a717a80a08bf0d588514966c78dc1a2587763
+# constat:template id=exunit-formatter version=39 sha256=dfd535b703ec7a7569f779e81d7a717a80a08bf0d588514966c78dc1a2587763
 defmodule Constat.CheckReportFormatter do
   @moduledoc """
   Writes ExUnit's own results as the machine-readable per-test report Constat's CI collector

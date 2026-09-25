@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# constat:template id=elixir-rewind-to-base version=24 sha256=1969cf062b5997b3584952126c4e631639c275189aa09d94d7d4a4ce0f7c8924
+# constat:template id=elixir-rewind-to-base version=39 sha256=1969cf062b5997b3584952126c4e631639c275189aa09d94d7d4a4ce0f7c8924
 # Rewinds the working tree to the code as it was BEFORE this branch's change, while KEEPING the
 # branch's own test files and the harness needed to install and run them. See
 # .github/scripts/rewind-to-base.sh in the constat repository for the fuller explanation this is
